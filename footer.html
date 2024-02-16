@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+        <div class="container fixed bottom-0 ">
+            <footer class="bg-[#659f8f] rounded-t-xl w-screen p-5">
+                <div class="container px-6 py-12 mx-auto ">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                        
+                        
+                        <div class="sm:col-span-2 ">
+                            <h1 class="max-w-lg mb-5 text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-black" >Subscribe to our newsletter for updates.</h1>
+                            <div class=" flex flex-col mx-auto space-y-3 md:space-y-0 md:flex-row gap-2">
+                                <input id="email" type="text" placeholder="Email Address" class=" px-4 py-2 text-[#000000] bg-white rounded-md dark:border-[#665c5c]  focus:outline-none focus:ring focus:ring-opacity-40" aria-label="">
+                                <button class="px-4 py-2 font-medium rounded-md bg-[#d86943] hover:bg-[#f08a62] dark:text-white focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" aria-label="Subscribe">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-[#313131] font-medium mb-3 " aria-label="Quick Link">Quick Link</p>
+                            <div class="flex list-none text-gray-800 ">
+                                <ul class="space-y-2">
+                                   <li><a href="#" class=" hover:underline hover:text-white " aria-label="Home">Home</a></li>
+                                   <li><a href="#" class=" hover:underline hover:text-white" aria-label="Who We Are">Who We Are</a></li>
+                                   <li><a href="#" class=" hover:underline hover:text-white" aria-label="Our Philosophy">Our Philosophy</a></li>
+                                </ul>
+                            </div>
+                        </div>  
+                        <div>
+                            <p class="text-[#313131] font-medium  mb-3" aria-label="Technologies">Technologies</p>
+                            <div class=" list-none  text-gray-800">
+                                <ul class="space-y-2">
+                                    <li><a href="#" class= "hover:underline hover:text-white"  aria-label="HTML">HTML</a></li>
+                                    <li><a href="#" class= "hover:underline hover:text-white" aria-label="CSS">CSS</a><li></li>
+                                    <li><a href="#" class= "hover:underline hover:text-white" aria-label="JavaScript">JavaScript</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-6 border-[#d86943]">
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="#">
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="" aria-label="codespace codespace-primary-logo-light">
+                        </a>
+                    </div>
+                </div>
+    </footer>
+        </div>
+
+</body>
+</html>
+
