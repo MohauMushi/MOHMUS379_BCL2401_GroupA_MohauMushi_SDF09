@@ -8,24 +8,34 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-        <div class="container fixed bottom-0 ">
+        <!--container fixed bottom-0  class is used to create a fixed-width container which is a footer that is positioned at the bottom of the screen. -->
+        <div class="container fixed bottom-0 "> 
+            <!--  the class below is used to style a container element with a specific background color, rounded top corners, full-width width, and padding around the content. -->
             <footer class="bg-[#659f8f] rounded-t-xl w-screen p-5">
                 <div class="container px-6 py-12 mx-auto ">
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-                        
-                        
-                        <div class="sm:col-span-2 ">
+                         
+                        <div class="sm:col-span-2 "><!-- This <div> element has the class "sm:col-span-2", which is likely used for defining the column span for different screen sizes. -->
+                             <!--The Below <h1> heading element , It displays the text "Subscribe to our newsletter for updates." and applies various styles such as font size, font weight, and text color. -->
                             <h1 class="max-w-lg mb-5 text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-black" >Subscribe to our newsletter for updates.</h1>
+                            <!-- The Below <div> element, its create a flex container that arranges its child elements in a column on small screens and in a row on medium screens and above. -->
                             <div class=" flex flex-col mx-auto space-y-3 md:space-y-0 md:flex-row gap-2">
-                                <input id="email" type="text" placeholder="Email Address" class=" px-4 py-2 text-[#000000] bg-white rounded-md dark:border-[#665c5c]  focus:outline-none focus:ring focus:ring-opacity-40" aria-label="">
+                                <input id="email" type="text" placeholder="Email Address" class=" px-4 py-2 text-[#000000] bg-white rounded-md dark:border-[#665c5c]  focus:outline-none focus:ring focus:ring-opacity-40" aria-label=""><!--The <input> element of type "text" with the id "email". It has a placeholder text "Email Address" and various classes that define its appearance, including padding, text color, background color, border color, and focus styles. -->
                                 <button class="px-4 py-2 font-medium rounded-md bg-[#d86943] hover:bg-[#f08a62] dark:text-white focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" aria-label="Subscribe">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
+                            <!-- The <p> paragraph element, It displays the text "Quick Link" and applies styles such as text color and font weight. -->
                             <p class="text-[#313131] font-medium mb-3 " aria-label="Quick Link">Quick Link</p>
+                            <!-- This <div> element, it create a flex container and applies a gray text color to its child elements. -->
                             <div class="flex list-none text-gray-800 ">
+                            <!-- 
+                                <ul> unordered list element with the class "space-y-2". It contains three list items <li>, each with an <a> anchor element inside. 
+                                The anchor elements have various classes that define their appearance when hovered over, including underlining the text and changing the text color to white. 
+                                The href="#" attribute represents a placeholder link.
+                            --> 
                                 <ul class="space-y-2">
                                    <li><a href="#" class=" hover:underline hover:text-white " aria-label="Home">Home</a></li>
                                    <li><a href="#" class=" hover:underline hover:text-white" aria-label="Who We Are">Who We Are</a></li>
@@ -33,9 +43,15 @@
                                 </ul>
                             </div>
                         </div>  
+
                         <div>
                             <p class="text-[#313131] font-medium  mb-3" aria-label="Technologies">Technologies</p>
                             <div class=" list-none  text-gray-800">
+                             <!-- 
+                                <ul> unordered list element with the class "space-y-2". It contains three list items <li>, each with an <a> anchor element inside. 
+                                The anchor elements have various classes that define their appearance when hovered over, including underlining the text and changing the text color to white. 
+                                The href="#" attribute represents a placeholder link.
+                            -->
                                 <ul class="space-y-2">
                                     <li><a href="#" class= "hover:underline hover:text-white"  aria-label="HTML">HTML</a></li>
                                     <li><a href="#" class= "hover:underline hover:text-white" aria-label="CSS">CSS</a><li></li>
