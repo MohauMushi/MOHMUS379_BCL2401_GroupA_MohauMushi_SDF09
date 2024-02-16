@@ -7,6 +7,7 @@ In this project, I have recreated a verrion of a footer with was focusing on CSS
 #### Areas of Mastery
 
 - **Responsive Design** : I did manage to the implement the tailwind elements in the html classes for the footer to be responsive in different devices.
+- **Styling Elements**: I managed to use Tailwind CSS for the footer, and closely resembling the footer that are in the images provided.
 
 ## Challenges Faced ## 
 
